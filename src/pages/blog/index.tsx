@@ -10,8 +10,8 @@ export default function Blog({ posts }: any) {
 	return (
 		<>
 			<SeoHead
-				title="Jacob Herper's Blog - Front-End Software Engineer"
-				description="I try to make an effort to document my journey as a software engineer in the form of blog posts. Here you find some of the articles I published over the years."
+				title="Sankaranarayanan S.E - FullStack Software Developer"
+				description="Here you find some of the articles I published over the years."
 			/>
 			<Container>
 				<Headline>Blog</Headline>

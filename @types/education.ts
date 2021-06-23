@@ -5,4 +5,5 @@ export interface IEducation {
 	endDate: string | Date;
 	place: string;
 	technologies: string[];
+	percentage: string;
 }

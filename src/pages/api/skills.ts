@@ -4,22 +4,21 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 	const technologies = [
 		'JavaScript',
 		'TypeScript',
-		'GraphQL',
-		'Redux',
+		'Node',
+		'PHP',
 		'RESTful APIs',
 		'HTML',
 		'CSS',
 	];
-	const frameworks = ['React', 'Vue.js', 'Next.js', 'Gatsby', 'Svelte'];
-	const databases = ['MySQL', 'MongoDB', 'Firebase', 'PostgreSQL'];
-	const cms = ['WordPress', 'Drupal', 'Contentful', 'Sanity.io'];
-	const various = ['SEO', 'Scrum', 'Agile', 'Jira', 'Confluence'];
+	const frameworks = ['React', 'Next.js', 'Express', 'Redux', 'React Native'];
+	const databases = ['MongoDB', 'MySQL'];
+	const cms = ['WordPress', 'Woocommerce'];
+	const various = ['SEO', 'Agile', 'Jira', 'Confluence'];
 	const design = [
 		'Adobe Illustrator',
-		'Adobe InDesign',
+		'Invision',
 		'Adobe Photoshop',
 		'Sketch',
-		'Zeplin',
 		'Figma',
 	];
 	const softSkills = [
@@ -38,24 +37,14 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			icon: '🇬🇧',
 		},
 		{
-			language: 'German',
+			language: 'Tamil',
 			level: 'bilingual',
-			icon: '🇩🇪',
+			icon: '🇮🇳',
 		},
 		{
-			language: 'Spanish',
+			language: 'Hindi',
 			level: 'intermediate',
-			icon: '🇲🇽',
-		},
-		{
-			language: 'Italian',
-			level: 'basic',
-			icon: '🇮🇹',
-		},
-		{
-			language: 'Russian',
-			level: 'basic',
-			icon: '🇷🇺',
+			icon: '🇮🇳',
 		},
 	];
 

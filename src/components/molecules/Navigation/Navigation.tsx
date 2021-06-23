@@ -32,11 +32,11 @@ const Navigation: FC<NavigationProps> = ({ onClick }) => {
 						<a onClick={onClick}>Blog</a>
 					</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link href="/portfolio">
 						<a onClick={onClick}>Portfolio</a>
 					</Link>
-				</li>
+				</li> */}
 				<li className="desktop-only">
 					<ThemeToggle />
 				</li>

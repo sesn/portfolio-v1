@@ -8,7 +8,7 @@ const SocialIcons: FC = () => {
 		<StyledSocialIcons>
 			<li>
 				<a
-					href="https://github.com/jakeherp"
+					href="https://github.com/sesn"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="Github"
@@ -18,7 +18,7 @@ const SocialIcons: FC = () => {
 			</li>
 			<li>
 				<a
-					href="https://twitter.com/jakeherp"
+					href="https://twitter.com/sesankar11"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="Twitter"
@@ -28,7 +28,7 @@ const SocialIcons: FC = () => {
 			</li>
 			<li>
 				<a
-					href="https://www.linkedin.com/in/jacobherper"
+					href="https://www.linkedin.com/in/sesankar11"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="LinkedIn"
@@ -38,7 +38,7 @@ const SocialIcons: FC = () => {
 			</li>
 			<li>
 				<a
-					href="https://instagram.com/jakeherp"
+					href="https://www.instagram.com/sesankar11"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="Instagram"

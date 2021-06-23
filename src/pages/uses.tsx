@@ -1,17 +1,17 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import styled from 'styled-components';
 
 import { Container } from 'Atoms/Container';
 import { List } from 'Atoms/List';
 import { SeoHead } from 'Atoms/SeoHead';
 
-import desk from 'Public/assets/desk.jpg';
+// import desk from 'Public/assets/desk.jpg';
 
 function Home() {
 	return (
 		<>
 			<SeoHead
-				title="Jacob Herper Uses ... - Front-End Software Engineer"
+				title="Sankaranarayanan S.E Uses ... - FullStack Software Developer"
 				description="This is a list of tech equipment I currently use for my day-to-day work as a software engineer."
 			/>
 
@@ -19,17 +19,15 @@ function Home() {
 				<Headline>/uses</Headline>
 				<p>
 					This is a list of tech equipment I currently use for my day-to-day
-					work as a software engineer. With the pandemic and a shift to working
-					fully remotely, I have upgraded a lot of my equipment in 2020 and
-					2021.
+					work as a software engineer. Still it is in work progress 👻.
 				</p>
-				<Image
+				{/* <Image
 					src={desk}
 					width={1920}
 					height={1080}
 					alt="A photo of my desk"
 					placeholder="blur"
-				/>
+				/> */}
 				<h3>Computer & Hardware</h3>
 				<List>
 					<li>
@@ -39,78 +37,67 @@ function Home() {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Macbook Pro 16&quot;
+								Macbook Pro 13&quot;
 							</a>
 						</strong>{' '}
-						(2.4 GHz i9 CPU, 32 GB Ram, 2TB storage)
+						(M1 chip with 8‑core CPU, 8‑core GPU, 16GB RAM, 512GB SSD)
 					</li>
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/3uGdfbs"
+								href="https://www.amazon.in/gp/product/B07T7NLLJJ"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Apple Magic Keyboard 2
+								Lenovo Legion Y540
 							</a>
 						</strong>{' '}
-						in space grey
+						(Intel i7, 15.6 inch, 16GB RAM/ 1TB HDD + 256 GB SSD)
 					</li>
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/3c6al9k"
+								href="https://www.amazon.in/dp/B07W86N3JV/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Apple Magic Trackpad 2
+								HyperX Alloy Origins Core
 							</a>
 						</strong>{' '}
-						in space grey
+						Red Switch
 					</li>
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/3fxf7Pr"
+								href="https://www.amazon.in/Razer-DeathAdder-Ergonomic-Wireless-Lighting/dp/B08JWNHGPH"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								LG 34WN80C-B
+								Razer DeathAdder V2
 							</a>
 						</strong>{' '}
-						34&quot; ultra-wide monitor, connected via USB-C
+						Pro Ergonomic Wireless Gaming Mouse
 					</li>
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/2RWN1nP"
+								href="https://www.amazon.in/Sony-WF-XB700-Wireless-Bluetooth-Headphones/dp/B085VQFZ8Z"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Invision MX450
+								Sony WF-XB700 Buds
 							</a>
 						</strong>{' '}
-						monitor arm
+						Truly Wireless Extra Bass Bluetooth Earbuds
 					</li>
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/3uDzFu3"
+								href="https://www.oneplus.in/oneplus-nord"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Rain Design mStand
-							</a>
-						</strong>
-					</li>
-					<li>
-						<strong>
-							<a
-								href="https://amzn.to/3vGlCFa"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								iPhone 12 Pro
+								OnePlus Nord
 							</a>
 						</strong>{' '}
 						(256 GB)
@@ -118,62 +105,26 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/3wCC35E"
+								href="https://www.amazon.in/Sennheiser-HD-4-50-BT-Cancellation"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Bose 700
+								Sennheiser HD 4.50 BT NC
 							</a>
 						</strong>{' '}
-						headphones
+						Bluetooth Wireless Headphones with Active Noise Cancellation
 					</li>
 					<li>
 						<strong>
 							<a
-								href="https://amzn.to/2R889al"
+								href="https://www.amazon.in/Echo-Plus-2nd-Gen/dp/B07CTTL5GR"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Apple AirPods Pro
+								Alexa EchoPlus
 							</a>
 						</strong>{' '}
-						for on-the-go
-					</li>
-					<li>
-						<strong>
-							<a
-								href="https://amzn.to/3ux8DnT"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Nest Wifi
-							</a>
-						</strong>{' '}
-						Mesh Network
-					</li>
-					<li>
-						<strong>
-							<a
-								href="https://store.google.com/product/google_home"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Google Home
-							</a>
-						</strong>{' '}
-						to manage my smart home
-					</li>
-					<li>
-						<strong>
-							<a
-								href="https://amzn.to/3vBBSHy"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Tonor Q9
-							</a>
-						</strong>{' '}
-						Condenser Microphone
+						as Speaker/Smart Home 🤔
 					</li>
 				</List>
 				<h3>Development Tools</h3>
@@ -201,11 +152,11 @@ function Home() {
 						theme and{' '}
 						<strong>
 							<a
-								href="https://www.typography.com/fonts/operator/styles/operatormono"
+								href="https://gumroad.com/l/dank-mono"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Operator Mono
+								Dank Mono
 							</a>
 						</strong>{' '}
 						font
@@ -225,23 +176,11 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://www.sourcetreeapp.com/"
+								href="https://www.postman.com/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Sourcetree
-							</a>
-						</strong>{' '}
-						for version control beyond the command line
-					</li>
-					<li>
-						<strong>
-							<a
-								href="https://insomnia.rest/"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Insomnia
+								Postman
 							</a>
 						</strong>{' '}
 						to test REST and GraphQL API&apos;s
@@ -252,11 +191,11 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://www.sketch.com/"
+								href="https://www.abstract.com/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Sketch
+								Abstract
 							</a>
 						</strong>
 					</li>
@@ -274,31 +213,33 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://affinity.serif.com/en-gb/photo/"
+								href="https://www.sketch.com/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Affinity Photo
+								Sketch
 							</a>
 						</strong>
-						,{' '}
+					</li>
+					<li>
 						<strong>
 							<a
-								href="https://affinity.serif.com/en-gb/designer/"
+								href="https://www.adobe.com/in/products/photoshop.html"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Affinity Designer
+								Adobe Photoshop
 							</a>
 						</strong>
-						,{' '}
+					</li>
+					<li>
 						<strong>
 							<a
-								href="https://affinity.serif.com/en-gb/publisher/"
+								href="https://www.figma.com/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Affinity Publisher
+								Adobe Illustrator
 							</a>
 						</strong>
 					</li>
@@ -359,38 +300,25 @@ function Home() {
 					<li>
 						<strong>
 							<a
-								href="https://brave.com/"
+								href="https://www.google.com/chrome/canary/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Brave browser
+								Chrome Canary browser
 							</a>
 						</strong>{' '}
-						has replaced Google Chrome for me
 					</li>
 					<li>
 						<strong>
 							<a
-								href="https://1password.com/"
+								href="https://www.globaldelight.com/boom"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								1Password
+								Boom2
 							</a>
 						</strong>{' '}
-						as my password manager
-					</li>
-					<li>
-						<strong>
-							<a
-								href="https://www.backblaze.com/"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Backblaze
-							</a>
-						</strong>{' '}
-						for constant backups of my machines
+						for my macbook speaker
 					</li>
 					<li>
 						<strong>

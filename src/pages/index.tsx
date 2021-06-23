@@ -20,21 +20,19 @@ function Home({ skills }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="Jacob Herper - Front-End Software Engineer"
-				description="Front-End Software Engineer with a focus on JavaScript and React.js. I have more than 10 years experience working in software engineering."
+				title="Sankaranarayanan S.E - FullStack Software Developer"
+				description="As a passionate Software Engineer, I produce elegant, performant, and accessible digital experiences."
 			/>
 
 			<Container>
 				<Headline>
 					Hey, I&apos;m
-					<wbr /> Jacob Herper <span>👋</span>
+					<wbr /> Sankar <span>👋</span>
 				</Headline>
 				<p>
-					I am a passionate Software Engineer, specialised in front-end
-					development using React and TypeScript. As an advocate for web
-					performance and accessibility and an evangelist for the Jamstack, I
-					create amazing web applications to make the internet a better place.
-					You can talk to me about{' '}
+					As a passionate Software Engineer, I produce elegant, performant, and
+					accessible digital experiences. I create amazing web applications to
+					make the internet a better place. You can talk to me about{' '}
 					<Typed
 						loop
 						typeSpeed={80}
@@ -46,18 +44,6 @@ function Home({ skills }: IProps) {
 						showCursor
 						cursorChar="|"
 					/>
-					.
-				</p>
-				<p>
-					P.S. this website is open-source and available on{' '}
-					<a
-						href="https://github.com/jakeherp/portfolio"
-						title="Link to Github repository"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Github
-					</a>
 					.
 				</p>
 			</Container>

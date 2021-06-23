@@ -27,35 +27,24 @@ function About({ jobs, education }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="About Jacob Herper - Front-End Software Engineer"
-				description="As a passionate front-end developer, I create amazing websites and web apps to make the internet a better place."
+				title="About Sankaranarayanan S.E - FullStack Software Developer"
+				description="As a passionate Software Engineer, I produce elegant, performant, and accessible digital experiences."
 			/>
 
 			<Container>
-				<Headline>Hey, I&apos;m Jacob Herper</Headline>
-				<h3>A senior software engineer from England</h3>
+				<Headline>Hey, I&apos;m Sankar</Headline>
+				<h3>A senior software engineer from India</h3>
 				<p>
-					As a passionate front-end developer, I create amazing websites and web
-					apps to make the internet a better place. I am an advocate for web
-					performance and accessibility as well as a JAMstack enthusiast with
-					experience in serverless technologies.
+					As a passionate Software Engineer, I produce elegant, performant, and
+					accessible digital experiences. I create amazing web applications to
+					make the internet a better place.
 				</p>
 				<p>
-					I am {differenceInCalendarYears(new Date(), new Date('1990-11-06'))}{' '}
-					years old and have been a web developer for as long as I can think.
-					The technologies I work with are JavaScript, HTML and CSS with a focus
-					on the frameworks React.js, Gatsby, Next.js, Node and Express. I use
-					code not only to do my day-to-day job, but also to solve everyday
-					problems I come across.
-				</p>
-				<p>
-					When I am not writing code I love to spend time with my wife and 3
-					year old daughter at home in London or travelling around the world. We
-					are quite a multi-cultural family with me having grown up in Germany
-					🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our
-					daughter trilingual. I myself speak five languages (some better than
-					others). Furthermore I enjoy cooking fresh food when I come home after
-					a long day at the office.
+					I have been a web developer for as long as I can think. The
+					technologies I work with are JavaScript, HTML and CSS with a focus on
+					the frameworks React.js, Next.js, Express and little bit into Angular.
+					I use code not only to do my day-to-day job, but also to solve
+					everyday problems I come across.
 				</p>
 
 				<h2>Experience</h2>

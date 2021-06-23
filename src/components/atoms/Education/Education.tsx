@@ -31,7 +31,8 @@ const Education: FC<EducationProps> = ({ education }) => {
 			</Flex>
 			<small>
 				<em>
-					<strong>Course contents:</strong> {education.technologies.join(', ')}
+					<strong>Score:</strong> {education.percentage}
+					{/* <strong>Course contents:</strong> {education.technologies.join(', ')} */}
 				</em>
 			</small>
 		</StyledEducation>
