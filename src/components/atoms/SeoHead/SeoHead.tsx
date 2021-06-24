@@ -19,7 +19,7 @@ const SeoHead: FC<HeadProps> = ({
 	description,
 	author = 'Sankaranarayanan (sesn)',
 	keywords,
-	image = 'https://res.cloudinary.com/jacobherper/image/upload/c_fill,g_north,h_1080,w_1920/v1587315694/herper-io.png ',
+	image = 'https://res.cloudinary.com/dhdlzjkec/image/upload/c_fill,g_north,h_1080,w_1920/v1624507570/sesn.png',
 	meta,
 }) => {
 	return (
